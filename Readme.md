@@ -4,7 +4,7 @@ This guide walks through, step by step, how the `equipment-maintenance-hub` npm-
 
 ## Prompt for Claude Code in VSCode
 
-´´´
+```
 Create an npm-workspaces monorepo named "equipment-maintenance-hub".
 
 Requirements:
@@ -16,7 +16,7 @@ Requirements:
 - Do not add application dependencies yet.
 
 Show the resulting folder tree and explain how npm install creates the local workspace link for @equipment-hub/contract
-´´´
+```
 
 ## 1. Create the workspace folders
 
