@@ -1,4 +1,4 @@
-# How the Equipment Maintenance Hub Monorepo Was Set Up
+# How the Monorepo was Set Up
 
 This guide walks through, step by step, how the `equipment-maintenance-hub` npm-workspaces monorepo was built, in the order it was done.
 
