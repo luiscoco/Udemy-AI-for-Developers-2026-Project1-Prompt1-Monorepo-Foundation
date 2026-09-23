@@ -2,6 +2,22 @@
 
 This guide walks through, step by step, how the `equipment-maintenance-hub` npm-workspaces monorepo was built, in the order it was done.
 
+## Prompt for Claude Code in VSCode
+
+´´´
+Create an npm-workspaces monorepo named "equipment-maintenance-hub".
+
+Requirements:
+- Root package.json with "private": true and workspaces ["apps/*", "packages/*"].
+- Empty packages: apps/backend, apps/frontend, packages/contract.
+- Each package uses pure ESM with "type": "module".
+- Backend and frontend depend on "@equipment-hub/contract": "*".
+- Add a Node-oriented .gitignore for node_modules, dist, coverage, .turbo, and local env files.
+- Do not add application dependencies yet.
+
+Show the resulting folder tree and explain how npm install creates the local workspace link for @equipment-hub/contract
+´´´
+
 ## 1. Create the workspace folders
 
 ```bash
